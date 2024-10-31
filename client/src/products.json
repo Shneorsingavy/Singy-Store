@@ -1,0 +1,73 @@
+[
+    {
+      "id": 1,
+      "name": "Refrigerator",
+      "picSrc": "https://cdn.pixabay.com/photo/2013/07/13/11/50/fridge-158792_640.png",
+      "details": "A large appliance used to keep food and beverages cold.",
+      "price":200
+    },
+    {
+      "id": 2,
+      "name": "Washing Machine",
+      "picSrc": "https://cdn.pixabay.com/photo/2016/10/31/18/50/washing-machine-1786385_640.png",
+      "details": "An appliance used to wash clothes automatically.",
+      "price":200
+    },
+    {
+      "id": 3,
+      "name": "Microwave Oven",
+      "picSrc": "https://cdn.pixabay.com/photo/2012/04/11/17/29/microwave-29056_640.png",
+      "details": "A kitchen appliance used to heat and cook food quickly using microwaves.",
+      "price":200
+    },
+    {
+      "id": 4,
+      "name": "Dishwasher",
+      "picSrc": "https://cdn.pixabay.com/photo/2016/10/26/21/05/modern-kitchen-1772638_640.jpg",
+      "details": "An appliance used to automatically clean dishes and utensils.",
+      "price":200
+    },
+    {
+      "id": 5,
+      "name": "Air Conditioner",
+      "picSrc": "https://cdn.pixabay.com/photo/2021/09/08/07/20/air-conditioner-6605973_1280.jpg",
+      "details": "An appliance used to cool and dehumidify indoor air.",
+      "price":200
+    },
+    {
+      "id": 6,
+      "name": "Vacuum Cleaner",
+      "picSrc": "https://cdn.pixabay.com/photo/2015/03/03/18/39/vacuum-cleaner-657719_640.jpg",
+      "details": "An appliance used to clean floors and carpets by suction.",
+      "price":200
+    },
+    {
+      "id": 7,
+      "name": "Toaster",
+      "picSrc": "https://cdn.pixabay.com/photo/2015/12/05/11/04/bread-1077984_1280.jpg",
+      "details": "A small appliance used to toast slices of bread.",
+      "price":200
+    },
+    {
+      "id": 8,
+      "name": "Coffee Maker",
+      "picSrc": "https://cdn.pixabay.com/photo/2023/02/17/11/19/ai-generated-7795820_640.jpg",
+      "details": "An appliance used to brew coffee automatically.",
+      "price":200
+    },
+    {
+      "id": 9,
+      "name": "Blender",
+      "picSrc": "https://cdn.pixabay.com/photo/2011/12/05/14/49/blender-10934_640.jpg",
+      "details": "A kitchen appliance used to mix, purée, or emulsify food and other substances.",
+      "price":200
+    },
+    {
+      "id": 10,
+      "name": "Electric Kettle",
+      "picSrc": "https://cdn.pixabay.com/photo/2014/08/08/21/36/electric-kettle-413744_640.jpg",
+      "details": "An appliance used to boil water quickly.",
+      "price":200
+    }
+  ]
+  
