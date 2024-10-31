@@ -1,4 +1,4 @@
-import React, { useContext, useState } from 'react';
+import React, { useContext, useState, useEffect } from 'react';
 import { cartOptions } from '../App';
 import { NavLink } from 'react-router-dom';
 import { FaSearch, FaShoppingCart, FaBars } from 'react-icons/fa'; 
@@ -11,6 +11,11 @@ const Header = ({ setArrProduct, product }) => {
   const [search, setSearch] = useState('');
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   const [originalProductList] = useState(product); 
+
+  useEffect(()=>{
+    searchedProducts();
+  },[search]);
+
 
   const toggleSidebar = () => {
     setIsSidebarOpen(!isSidebarOpen);
@@ -44,7 +49,9 @@ const Header = ({ setArrProduct, product }) => {
             dir="rtl"
             type="text"
             placeholder="חיפוש..."
-            onChange={(event) => setSearch(event.target.value)}
+            onChange={(event) => { 
+              setSearch(event.target.value); 
+            }}
             value={search}
             className="w-full p-2 rounded-l-md border border-gray-700 focus:outline-none focus:ring-2 focus:ring-yellow-500 text-black"
           />
